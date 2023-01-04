@@ -9,7 +9,7 @@ fun main() {
 //        "C" if the score is b/w 70 and 79
 //        "F" for anything else
 fun getExamGrade(result: ExamResult): String {
-    
+
     return when (result.score) {
         in 90..100 -> "A"
         in 80..89 -> "B"
