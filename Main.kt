@@ -12,7 +12,7 @@ fun getExamGrade(result: ExamResult): String {
 
     return when (result.score) {
         in 91..100 -> "A"
-        in 80..89 -> "B"
+        in 80..90 -> "B"
         in 70..79 -> "C"
         else -> "F"
     }
